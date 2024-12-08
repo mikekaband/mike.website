@@ -1,0 +1,113 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+p {
+    font-family: "Source Sans 3", system-ui;
+    font-weight: normal;
+}
+
+h1, h2, h3 {
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+/* NAVIGATION SECTION */
+
+nav {
+    background-color: #eee;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 70px;
+}
+
+nav a {
+    font-family: "Source Code Pro", system-ui;
+    font-weight: 500;
+    font-size: 18px;
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover {
+    color: #EF5024;
+    font-weight: bold;
+}
+
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #eee;
+    backdrop-filter: blur(10px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.menu-button {
+    display: block;
+}
+
+.current-page {
+    color: #EF5024;
+    font-weight: bold;
+}
+
+
+.hideOnMobile{
+    display: none;
+}
+
+.menu-button {
+    display: block;
+}
+
+.sidebar {
+    width: 100%;
+}
+
+
+
